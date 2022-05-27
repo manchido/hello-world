@@ -36,8 +36,8 @@ jobs:
     steps: 
       - checkout
       - attach_workspace:
-          at: /workspace
-      - run: cat output.txt
+          at: ~/
+      - run: cat ~/output.txt
     
     
 
